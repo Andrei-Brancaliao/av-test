@@ -3,5 +3,6 @@ describe('teste acessibilidade', ()=>{
         cy.visit('https://avenue.us/');
         cy.injectAxe();
         cy.checkA11y();
+        //como configurar??
     })
 })
