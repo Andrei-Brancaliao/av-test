@@ -8,4 +8,6 @@ describe('Navegação entre páginas', () => {
       cy.get('[class="banking--section-one-image-item"]').should('be.visible');
       
     })
+
+    
 })
