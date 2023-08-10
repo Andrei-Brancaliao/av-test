@@ -1,5 +1,12 @@
 describe('Procura e adição de produto', () => {
     it('Procurar por produto e adicionar no carrinho', () => {
+    
+      /**
+    * ao procurar produto e entrar para adicionar ao carrinho, pode ocorrer dele não
+    * estar disponível no momento, existe a possibilidade de agendar mas não sei como
+    * colocar essa validação de selecionar um OU outro.
+    */
+
       cy.visit('https://www.amazon.com.br');
 
       cy.get('[id="twotabsearchtextbox"]').type('Geladeira');
